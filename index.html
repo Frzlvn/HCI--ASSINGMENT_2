@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title style="text-align:center; font-size:2em;">HCI ASSIGNMENT-02</title>
+  <style>
+    body {
+      background-image: url('https://wallpapers.com/images/hd/dark-mountain-4k-3vxidfa2y5t5uk4m.webp');
+      background-size: cover;
+      text-align: center;
+    }
+    h1 {
+      color: white;
+      padding-top: 100px;
+      font-size: 2.5em;
+    }
+    form {
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      margin-top: 50px;
+      border-radius: 10px;
+    }
+    table {
+      margin: auto;
+    }
+    th, td {
+      padding: 10px;
+    }
+    input[type="radio"] {
+      display: inline-block;
+      margin-right: 5px;
+    }
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>HCI ASSIGNMENT-02</h1>
+  <form>
+    <table>
+      <tr>
+        <td><label for="Username">Username:</label></td>
+        <td><input type="text" id="Username" name="Username"></td>
+      </tr>
+      <tr>
+        <td><label for="Password">Password:</label></td>
+        <td><input type="text" id="Password" name="Password"></td>
+      </tr>
+      <tr>
+        <td><label for="country">Country:</label></td>
+        <td><input type="text" id="country" name="country"></td>
+      </tr>
+      <tr>
+        <td><label for="city">City:</label></td>
+        <td><input type="text" id="city" name="city"></td>
+      </tr>
+      <tr>
+        <td><label for="photoprofile">Pick Profile Photo:</label></td>
+        <td><input type="file" id="photoprofile" name="photoprofile"></td>
+      </tr>
+      </tr>
+      <tr>
+        <td rowspan="2">Gender:</td>
+        <td><input type="radio" id="Male" name="Male" value="Male"><label for="Male">Male</label></td>
+        <td><input type="radio" id="Female" name="Female" value="Female"><label for="Female">Female</label></td>
+      </tr>
+      <tr> <td>Date:</td>
+        <td><input type="date" id="date" name="date"></td>
+      <tr>
+        <tr>
+
+        </tr>
+        <td><input type="checkbox" id="I've filled it all in" name="I've filled it all in" value="I've filled it all in"><label for="I've filled it all in">I've filled it all in </label></td>
+      </tr>
+      <tr><td colspan="2"><input type="submit" value="Submit"></td></tr>
+    </table>
+  </form>
+</body>
+</html>
